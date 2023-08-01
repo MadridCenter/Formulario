@@ -4,7 +4,7 @@
 	margin: auto;
 	width:50%;
 	border-radius: 50px;
-	background-image: url("/Img/fundo.png");
+	background-image: url("fundo.png");
 	background-size: 200%;
 	background-position: center;
 	
