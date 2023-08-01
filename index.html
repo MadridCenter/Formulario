@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Contacto</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div  class="container2" >
+        <img class="logobau" src="/Img/baú de ouro_tourosat.png"></img>
+        <section class="container">
+            <div class="row">
+            
+            <h3 class="center-align"  style="margin-top: 80px"><p>Cadastre-se e tenha a</p>
+                <p style="margin-top: -15px" >chance de ganhar vários prêmios!</p></h3>
+        
+                <article class="col s6 offset-s3">
+                    <form method="POST" action="formulario-contacto.php">
+                        <div class="input-field">
+                            <i class="material-icons prefix">perm_identity</i>
+                            <label class="texto" for="nombre">Número de raspadinha</label>
+                            <input type="text" name="nombre" required>
+                        </div>
+
+                        <div class="input-field">
+                            <i class="material-icons prefix">person_pin</i>
+                            <label class="texto" for="apellido">Documento de identidade</label>
+                            <input type="text" name="apellido" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                            <label class="texto" for="email">Whatsapp</label>
+                            <input type="email" name="email" required>
+                        </div>
+
+                        
+                        
+                        <p class="center-align">
+                            <button class="waves-effect waves-light btn" type="submit"><i class="material-icons right">send</i>enviar</button>
+                        </p>
+
+                    </form>
+
+                </article>
+            </div>
+        </section>
+    </div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+</body>
+</html>
